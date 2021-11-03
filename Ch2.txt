@@ -1,0 +1,32 @@
+Ch2:
+  My Questions:
+    Q: pattern matching how does this bubble up key of unamed list (top level state?)
+      list = [ 1,2,3 ]
+      [ a,b,c ] = list 
+      a
+        1
+  My Notes:
+    _ wildcard for pattern matching
+    ^ forces pattern matching to use existing value
+  Exercise: PatternMatching-1
+    -Which of the following will match?
+      X a = [1, 2, 3]
+      X a = 4
+      X(if executed in succession with previous command else_) 4 = a
+      – [a, b] = [ 1, 2, 3 ]
+      X a = [ [ 1, 2, 3 ] ]
+      X [a] = [ [ 1, 2, 3 ] ]
+      _ [[a]] = [ [ 1, 2, 3 ] ]
+  Exercise PatternMatchin-2
+    -Which of the following will match?
+      – [ a, b, a ] = [ 1, 2, 3 ]
+      – [ a, b, a ] = [ 1, 1, 2 ]
+      X [ a, b, a ] = [ 1, 2, 1 ]
+  Exercise: PatternMatching-3
+    -The variable a is bound to the value 2. Which of the following will match?
+      – [ a, b, a ] = [ 1, 2, 3 ]
+      – [ a, b, a ] = [ 1, 1, 2 ]
+      X a = 1
+      X ^a = 2
+      – ^a = 1
+      – ^a = 2 - a
