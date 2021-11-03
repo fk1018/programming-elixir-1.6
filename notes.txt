@@ -1,4 +1,4 @@
-Ch2:
+Ch2: Pattern Matching
   My Questions:
     Q: pattern matching how does this bubble up key of unamed list (top level state?)
       list = [ 1,2,3 ]
@@ -30,3 +30,8 @@ Ch2:
       X ^a = 2
       – ^a = 1
       – ^a = 2 - a
+
+Ch3:Immutability
+  My Questions:
+  My Notes:
+    [head|tail] opertator like using spread to update react state
