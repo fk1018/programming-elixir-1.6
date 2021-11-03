@@ -35,3 +35,32 @@ Ch3:Immutability
   My Questions:
   My Notes:
     [head|tail] opertator like using spread to update react state
+Ch4:Elixir Basics
+  My Questions:
+    Using atoms to tag values? Elaborate? Can an atom be a value
+      in a tuple/map/struct?Why use a atom versus a different type?
+      is it good convention to use an atom as the keyword for a tuple 
+      with a kv pair?
+
+  My Notes:
+    Atoms are constants that represent somethings name. Write them
+      using a leading colon (:). Do not use digits, underscores or @ signs
+  List have specific opertators
+    ++(concat) , --(diff), in(membership)
+  Use keyword lists for things such as command-line parameters and
+    passing around options, and use maps when you want an associative array
+  Access mapp values with []
+    ex: states["AL"] 
+    If keys are atoms you can also use . notation. :)
+  Module, record, protocol, and behavior names start with an uppercase letter
+    and are BumpyCase. All other identifiers start with a lowercase letter or an
+    underscore, and by convention use underscores between words.
+  By convention, source files use two-character indentation for nesting—and
+    they use spaces, not tabs, to achieve this.
+  Natural ordering if same types otherwise comparison is based on type according to this rule:
+    number < atom < reference < function < port < pid < tuple < map < list < binary
+  Lots good operators
+  Very ruby like with the if do end block structure
+  I did not notice the explanation of difference in .ex and .exs ( I did google it but coulda 
+    maybe slide this in as a footnote in next book)
+  
